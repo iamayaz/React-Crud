@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+
+// Import Compnent
 import Header from './header';
+import Body from './body';
+import Footer from './footer';
+import User from './User';
 import './App.css';
 
 
@@ -16,7 +22,15 @@ class App extends Component {
 		
 	//setInterval(tick, 1000);	
 	const 	element = (
-		<Header />
+		<Router>
+			<div>
+				<Header />
+				<Route exact path='/Body' component={Body} />
+				<Route exact path='/User' component={User} />
+
+				<Footer />
+			</div>
+		</Router>
 	);
     return (
 		element
