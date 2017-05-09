@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Header from './header';
 import './App.css';
 
 
@@ -14,18 +15,14 @@ class App extends Component {
 		</div>); */ 
 		
 	//setInterval(tick, 1000);	
-	const 	title = 'Hello React';
-	const  	time = new Date().toLocaleTimeString();
 	const 	element = (
-		<div>
-		  <h1>{title}</h1>
-		  <h2>It is {time}.</h2>
-		</div>
+		<Header />
 	);
     return (
 		element
     );
   }
+
 }
 
 export default App;
