@@ -21,6 +21,10 @@ class Header extends Component {
 					<Link to="User"></Link>
 					<a href="User">User</a>
 				</li>
+				<li>
+					<Link to="Customer"></Link>
+					<a href="Customer">Customer</a>
+				</li>
 			</ul>
 		</header>
 	);

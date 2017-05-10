@@ -7,6 +7,7 @@ import Header from './header';
 import Body from './body';
 import Footer from './footer';
 import User from './User';
+import Customer from './customer';
 import './App.css';
 
 
@@ -27,7 +28,7 @@ class App extends Component {
 				<Header />
 				<Route exact path='/Body' component={Body} />
 				<Route exact path='/User' component={User} />
-
+				<Route exact path='/Customer' component={Customer} />
 				<Footer />
 			</div>
 		</Router>
