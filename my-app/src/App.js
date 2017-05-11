@@ -8,6 +8,7 @@ import Body from './body';
 import Footer from './footer';
 import User from './User';
 import Customer from './customer';
+import Technician from './technician';
 import './App.css';
 
 
@@ -26,9 +27,10 @@ class App extends Component {
 		<Router>
 			<div>
 				<Header />
-				<Route exact path='/Body' component={Body} />
-				<Route exact path='/User' component={User} />
-				<Route exact path='/Customer' component={Customer} />
+					<Route exact path='/Body' component={Body} />
+					<Route exact path='/User' component={User} />
+					<Route exact path='/Customer' component={Customer} />
+					<Route exact path='/Technician' component={Technician} />
 				<Footer />
 			</div>
 		</Router>
