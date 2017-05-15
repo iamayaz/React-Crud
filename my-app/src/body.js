@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 class Body extends Component {
+	
   render() {
 	const 	bodyContent = 'This is body content';
 	const 	elementContent = (
@@ -11,6 +12,7 @@ class Body extends Component {
 				<input type="text" placeholder="Value Two"/><br />
 				<button>Submit</button>
 			</form>
+			
 			
 		</div>
 	);
