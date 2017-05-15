@@ -5,6 +5,13 @@ class Body extends Component {
 	const 	elementContent = (
 		<div class="container">
 			<p>{bodyContent}</p>
+			
+			<form>
+				<input type="text" placeholder="Value One"/><br />
+				<input type="text" placeholder="Value Two"/><br />
+				<button>Submit</button>
+			</form>
+			
 		</div>
 	);
     return (
